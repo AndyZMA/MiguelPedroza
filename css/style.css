@@ -273,11 +273,32 @@ img {
 /* ================= HERO BANNER PART CSS =================*/
 /* ================================================================= */
 .banner-slider {
-    background: url(../images/freepik__expand__6499.png);
+    position: relative; /* Permite que el pseudo-elemento se posicione dentro */
+    background: url(../images/MainBanner.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 1; /* Asegúrate de que la opacidad del fondo sea total */
 }
+
+.banner-slider::before {
+    content: ""; /* Necesario para que el pseudo-elemento exista */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Máscara negra con opacidad */
+    z-index: 1; /* Coloca la máscara sobre la imagen de fondo */
+}
+
+.banner-slider * {
+    position: relative;
+    z-index: 2; /* Asegura que el texto y otros elementos estén sobre la máscara */
+    color: white; /* Garantiza visibilidad del texto */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Añade sombra para mayor contraste */
+}
+
 
 .hero-banner-part {
     padding: 220px 0px;
@@ -513,6 +534,48 @@ span {
     z-index: 1;
 }
 
+.servicios-part {
+    position: relative;
+    background: url(../images/practice/ServicesBack2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    z-index: 1;
+    height: 50vh; /* Altura del 50% de la ventana del usuario */
+    opacity: 1;
+}
+
+.servicios-part::before {
+    content: ""; /* Necesario para que el pseudo-elemento exista */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Máscara negra con opacidad */
+    z-index: 1; /* Coloca la máscara sobre la imagen de fondo */
+}
+
+.experience-content {
+    position: relative;
+    z-index: 2; /* Asegura que el texto esté encima de la máscara */
+    color: #ffffff; /* Color blanco para el texto */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 20px; /* Agrega espacio interno */
+}
+
+.experience-content h2 {
+    font-size: 2.5rem; /* Tamaño grande para que destaque */
+    font-weight: bold; /* Hace el texto más llamativo */
+    line-height: 1.4; /* Espaciado entre líneas */
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8); /* Sombra negra para mayor contraste */
+    margin: 0; /* Elimina márgenes innecesarios */
+}
+
+
+
+
 .experience-part::before {
     position: absolute;
     content: "";
@@ -540,9 +603,20 @@ span {
 .choose-us-part {
     padding-top: 105px;
     padding-bottom: 60px;
-    background-image: url(../images/layer-img.png);
+    background-image: url(../images/AboutIMG.png);
     background-repeat: no-repeat;
-    background-size: inherit;
+    background-size: 450px;
+    background-attachment: inherit;
+    background-position: 100% 50%;
+
+}
+
+.choose-us-part2 {
+    padding-top: 105px;
+    padding-bottom: 60px;
+    background-image: url(../images/WhyChoose.png);
+    background-repeat: no-repeat;
+    background-size: 450px;
     background-attachment: inherit;
     background-position: 100% 50%;
 
@@ -550,7 +624,6 @@ span {
 
 .choose-us-part.on-about-page {
     background-color: #F8F8F8;
-    background-image: url(../images/about-layer-img.png);
     background-position: 0 50%;
 
 }
@@ -1025,7 +1098,7 @@ span {
     margin-bottom: 0px;
     margin-left: 0px;
     background: #f7f7f7;
-    background-image: url(../images/layer-img.png);
+    background-image: url(../images/practice/ServiciosBack.jpg);
     background-repeat: no-repeat;
     background-size: inherit;
     background-attachment: inherit;
