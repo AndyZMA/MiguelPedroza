@@ -169,7 +169,7 @@ img {
 }
 
 .topber-info a:hover {
-    color: #d49943
+    color: #C1A068
 }
 
 .topber-social-icon ul li {
@@ -193,12 +193,12 @@ img {
 }
 
 .topber-social-icon ul li a:hover {
-    color: #d49943;
+    color: #C1A068;
 }
 
 .main-nav {
     padding: 0 15px;
-    background: #d49943;
+    background: #C1A068;
 
 }
 
@@ -240,7 +240,7 @@ img {
 }
 
 .navbar-custom .dropdown li > a.nav-link:hover {
-    color: #d49943;
+    color: #C1A068;
 }
 
 .dropdown-menu {
@@ -265,7 +265,7 @@ img {
 }
 
 .nav-btn:hover {
-    color: #d49943;
+    color: #C1A068;
 }
 
 
@@ -339,7 +339,7 @@ a.theme-btn {
     display: inline-block;
     padding: 15px 40px;
     border-radius: 30px;
-    background: #d49943;
+    background: #C1A068;
     transition: all .3s;
 
 }
@@ -384,7 +384,7 @@ a.theme-btn {
 
 .banner-slider .fa-caret-left:hover,
 .banner-slider .fa-caret-right:hover {
-    background: #d49943;
+    background: #C1A068;
 }
 
 /* ================================================================= */
@@ -465,15 +465,15 @@ span {
 }
 
 .grid-practice-area h3 a:hover {
-    color: #d49943;
+    color: #C1A068;
 }
 
 .grid-practice-area .read-more-btn:hover {
-    color: #d49943;
+    color: #C1A068;
 }
 
 .grid-practice-area .read-more-btn:hover span {
-    color: #d49943;
+    color: #C1A068;
 }
 
 .grid-practice-area p {
@@ -511,8 +511,8 @@ span {
 
 .load-more:hover {
     background: transparent;
-    color: #d49943 !important;
-    border-color: #d49943
+    color: #C1A068 !important;
+    border-color: #C1A068
 }
 
 .load-more i {
@@ -583,7 +583,7 @@ span {
     height: 100%;
     left: 0;
     top: 0;
-    background: #d49943;
+    background: #C1A068;
     opacity: .60;
     z-index: -1;
 }
@@ -733,7 +733,7 @@ span {
     opacity: 0;
     transition: 0.5s;
     border-radius: 25px;
-    background: #d49943;
+    background: #C1A068;
 }
 
 .attorneys-img:hover::before {
@@ -870,7 +870,7 @@ span {
 
 .testimonial-slider .fa-caret-left:hover,
 .testimonial-slider .fa-caret-right:hover {
-    background: #d49943;
+    background: #C1A068;
 }
 
 /* ================================================================= */
@@ -925,11 +925,11 @@ span {
 }
 
 .blog-title:hover {
-    color: #d49943;
+    color: #C1A068;
 }
 
 .view-details-btn {
-    color: #d49943 !important;
+    color: #C1A068 !important;
     font-size: 16px;
     font-weight: 700;
     margin-top: 15px;
@@ -982,7 +982,7 @@ span {
     height: 100%;
     right: -20px;
     bottom: -20px;
-    background: #d49943;
+    background: #C1A068;
     border-radius: 10px;
     z-index: -1;
 }
@@ -1021,7 +1021,7 @@ span {
     width: 42px;
     height: 42px;
     line-height: 42px;
-    background: #d49943;
+    background: #C1A068;
     border-radius: 50%;
     text-align: center;
     display: inline-block;
@@ -1056,7 +1056,7 @@ span {
     line-height: 40px;
     border-radius: 50%;
     color: #fff;
-    background: #d49943;
+    background: #C1A068;
     text-align: center;
     flex: none;
 }
@@ -1133,13 +1133,13 @@ span {
 }
 
 .custom-input:hover {
-    border-color: #d49943;
+    border-color: #C1A068;
 }
 
 .custom-input:focus {
     box-shadow: none;
     background: #efefef;
-    border: 1px solid #d49943;
+    border: 1px solid #C1A068;
 }
 
 .custom-textarea {
@@ -1153,20 +1153,20 @@ span {
 }
 
 .custom-textarea:hover {
-    border-color: #d49943;
+    border-color: #C1A068;
 }
 
 .custom-textarea:focus {
     box-shadow: none;
     background: #efefef;
-    border: 1px solid #d49943;
+    border: 1px solid #C1A068;
 }
 
 .submit {
     color: #fff;
     padding: 10px 24px;
     border-radius: 30px;
-    background: #d49943;
+    background: #C1A068;
     font-size: 16px;
     font-weight: 500;
     margin-top: 50px;
@@ -1175,9 +1175,9 @@ span {
 }
 
 .submit:hover {
-    color: #d49943;
+    color: #C1A068;
     background: transparent;
-    border-color: #d49943;
+    border-color: #C1A068;
 }
 
 .submit:focus {
@@ -1242,7 +1242,7 @@ span {
 }
 
 .another-page-links ul li a:focus {
-    background: #d49943;
+    background: #C1A068;
     color: #fff;
 }
 
@@ -1256,7 +1256,7 @@ span {
 
 .serach_btn {
     padding: 22px 25px;
-    background: #d49943;
+    background: #C1A068;
     margin-bottom: 60px;
 }
 
@@ -1312,7 +1312,7 @@ span {
     font-family: 'Playfair Display', serif;
     padding-bottom: 20px;
     margin-bottom: 40px;
-    border-bottom: 1px dashed #d49943;
+    border-bottom: 1px dashed #C1A068;
 }
 
 .case-examples ul li {
@@ -1324,7 +1324,7 @@ span {
 }
 
 .case-examples ul li i {
-    color: #d49943;
+    color: #C1A068;
     padding-right: 15px;
     font-size: 18px;
 }
@@ -1337,12 +1337,12 @@ span {
 }
 
 .case-examples ul li a:hover {
-    color: #d49943;
+    color: #C1A068;
     padding-left: 10px;
 }
 
 .case-examples ul li a:hover span {
-    color: #d49943 !important;
+    color: #C1A068 !important;
 }
 
 .resent-news-info {
@@ -1355,11 +1355,11 @@ span {
 
 .publish-date a i {
     font-size: 16px;
-    color: #d49943
+    color: #C1A068
 }
 
 .publish-date a span {
-    color: #d49943;
+    color: #C1A068;
     font-size: 16px;
     padding-left: 8px;
     font-weight: 400;
@@ -1375,7 +1375,7 @@ span {
 }
 
 .news-title h5 a:hover {
-    color: #d49943 !important;
+    color: #C1A068 !important;
 }
 
 .popular-tag ul li {
@@ -1393,9 +1393,9 @@ span {
 }
 
 .popular-tag ul li a:hover {
-    background: #d49943;
+    background: #C1A068;
     color: #ffffff;
-    border-color: #d49943;
+    border-color: #C1A068;
 }
 
 .blog-details-content {
@@ -1424,7 +1424,7 @@ span {
 }
 
 .blog-details-content blockquote {
-    color: #d49943;
+    color: #C1A068;
     font-size: 16px;
     font-weight: 300;
     font-style: italic;
@@ -1445,13 +1445,13 @@ span {
 
 .man a i {
     font-size: 16px;
-    color: #d49943;
+    color: #C1A068;
     margin-right: 8px;
 }
 
 .react-icon a i {
     font-size: 16px;
-    color: #d49943;
+    color: #C1A068;
     margin-right: 5px;
 }
 
@@ -1468,7 +1468,7 @@ span {
 
 .tags-bar {
     padding: 15px 20px;
-    background: #d49943;
+    background: #C1A068;
     margin-top: 50px;
     margin-bottom: 65px;
 
@@ -1548,7 +1548,7 @@ span {
 
 .comment-content a i {
     font-size: 16px;
-    color: #d49943
+    color: #C1A068
 }
 
 .comment-input {
@@ -1671,7 +1671,7 @@ span {
     font-size: 18px;
     height: 40px;
     border-radius: 50%;
-    background-color: #d49943;
+    background-color: #C1A068;
     line-height: 35px;
     color: #fff;
     margin-right: 10px;
@@ -1741,7 +1741,7 @@ span {
 
 .backhome {
     padding: 15px 30px;
-    background: #d49943;
+    background: #C1A068;
     color: #fff !important;
     font-size: 16px;
     font-weight: 500;
@@ -1752,8 +1752,8 @@ span {
 
 .backhome:hover {
     background: transparent;
-    border-color: #d49943;
-    color: #d49943 !important;
+    border-color: #C1A068;
+    color: #C1A068 !important;
 }
 
 .backhome i {
@@ -1766,7 +1766,7 @@ span {
 .trust-part {
     padding-top: 40px;
     padding-bottom: 40px;
-    background: #d49943;
+    background: #C1A068;
 }
 
 .trust-content h2 {
@@ -1827,8 +1827,8 @@ span {
 
 .personal-info-box:hover .icon {
     color: #fff;
-    background: #d49943;
-    border-color: #d49943;
+    background: #C1A068;
+    border-color: #C1A068;
 }
 
 .personal-info-box .icon:before {
@@ -1844,7 +1844,7 @@ span {
 
 .personal-info-box:hover .icon:before,
 .personal-info-box:hover .icon:after {
-    background: #d49943;
+    background: #C1A068;
 }
 
 .personal-info-box .icon:after {
@@ -1869,7 +1869,7 @@ span {
 }
 
 .personal-info-box p a:hover {
-    color: #d49943;
+    color: #C1A068;
 }
 
 .get-touch {
@@ -1898,12 +1898,12 @@ span {
 }
 
 .touch-info:hover {
-    border-color: #d49943;
+    border-color: #C1A068;
 }
 
 .touch-info:focus {
     box-shadow: none;
-    border: 1px solid #d49943;
+    border: 1px solid #C1A068;
 }
 
 .touch-textarea {
@@ -1919,12 +1919,12 @@ span {
 }
 
 .touch-textarea:hover {
-    border-color: #d49943;
+    border-color: #C1A068;
 }
 
 .touch-textarea:focus {
     box-shadow: none;
-    border: 1px solid #d49943;
+    border: 1px solid #C1A068;
 }
 
 .location-box {
@@ -1981,7 +1981,7 @@ span {
 }
 
 .personal-info span:hover {
-    color: #d49943
+    color: #C1A068
 }
 
 .footer-column h3 {
@@ -2005,7 +2005,7 @@ span {
 }
 
 .news-blog-title:hover {
-    color: #d49943 !important;
+    color: #C1A068 !important;
 }
 
 .footer-column ul li {
@@ -2022,7 +2022,7 @@ span {
 }
 
 .footer-column ul li a:hover {
-    color: #d49943;
+    color: #C1A068;
 }
 
 /* ================================================================= */
