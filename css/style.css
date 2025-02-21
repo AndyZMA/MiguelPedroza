@@ -622,6 +622,13 @@ span {
 
 }
 
+.section-heading-content {
+    background: rgba(255, 255, 255, 0.7); /* Fondo blanco semitransparente */
+    padding: 20px; /* Espaciado para mayor legibilidad */
+    border-radius: 5px; /* Bordes redondeados opcionales */
+}
+
+
 .choose-us-part.on-about-page {
     background-color: #F8F8F8;
     background-position: 0 50%;
